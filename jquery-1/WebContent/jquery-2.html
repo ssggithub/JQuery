@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript">
+	//$(function(){}) 相当于 window.onload, 代码卸载 {} 之间
+	$(function() {
+		//1. 选取 button: $("button")
+		//2. 为 button 添加 onclick 响应函数: $("button").click(function(){})
+		//代码编写在 function 的 {} 中. 
+		$("button").click(function() {
+			//3. 弹出 helloworld
+			alert("helloworld");
+		});
+	});
+</script>
+<body>
+	<button id="btn">Click Me</button>
+	<br>
+	<br>
+	<button>Click Me2</button>
+
+</body>
+</html>
