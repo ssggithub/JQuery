@@ -14,6 +14,25 @@
 		$("button").click(function() {
 			//3. 弹出 helloworld
 			alert("helloworld");
+			alert($(this).text());
+
+			//jQuery 和 DOM 对象
+			//1. 由 jQuery 对象转为 DOM 对象
+			//1). 获取一个 jQuery 对象
+			var $btn = $("button")
+
+			//2). jQuery 对象是一个数组. 
+			alert($btn.length);
+
+			//3). 可以通过数组的下标转为 DOM 对象
+			alert("+++" +$btn[1].firstChild.nodeValue);
+
+			//2. 由 DOM 对象转为 jQuery 对象
+			//1). 选取一个 DOM 对象
+			var btn = document.getElementById("btn");
+
+			//2). 把 DOM 对象转为一个 jQuery 对象: 使用 $() 进行包装
+			alert("--" + $(btn).text())
 		});
 	});
 </script>
