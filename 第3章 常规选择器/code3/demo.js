@@ -20,7 +20,6 @@ $(function () {
 	
 	//nextAll()方法
 	//$('#box').nextAll('p').css('color', 'maroon');
-	
 	//$('#box').next('*').css('color', 'maroon');			//next()等选择器方法不传参，就相当于传递了*号，
 	
 	//如果*在某个环境里有所浪费，建议尽量不去使用
