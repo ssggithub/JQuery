@@ -2,7 +2,7 @@
 
 $(function () {
 	
-	//$('#box p').css('color', 'red');
+	  $('#box p').css('color', 'red');
 	
 	//$('p', '#box').css('color', 'blue');
 	
