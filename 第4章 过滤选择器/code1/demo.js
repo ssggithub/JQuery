@@ -3,7 +3,7 @@
 $(function () {
 	
 	//$('li:first').css('background', '#ccc');
-	//$('li:last').css('background', '#ccc');
+	$('li:last').css('background', '#ccc');
 	//$('#box li:last').css('background', '#ccc');
 	//$('ul:first li:last').css('background', '#ccc');
 	//$('li:not(.red)').css('background', '#ccc');
