@@ -1,7 +1,7 @@
 ﻿
 
 $(function () {
-	
+	 
 	//$('li:first').css('background', '#ccc');
 	$('li:last').css('background', '#ccc');
 	//$('#box li:last').css('background', '#ccc');
